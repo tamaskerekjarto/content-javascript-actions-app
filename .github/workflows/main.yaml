@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2 #GITHUB_WORKSPACE
     - name: Hello World action steps
       id: hello 
-      uses: 
+      uses: /
       with:
         who-to-greet: 'Tamas'
     #use the output from the 'hello' step
